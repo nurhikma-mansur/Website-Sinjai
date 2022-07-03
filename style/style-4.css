@@ -1,0 +1,71 @@
+#level-4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#level-4 h1 {
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#level-4 .container {
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    left: 8%;
+    right: 8%;
+    display: grid;
+    grid-template-columns: repeat(4, auto) ;
+    column-gap: 30px;
+    gap: 30px;
+}
+
+#level-4 .card {
+    width: 200px;
+    height: 150px;
+    position:relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#level-4 .img-container-1{
+    width: 100px;
+    height: 70px;
+    background-image: url(../image/mangrove.jfif);
+    background-size:cover;
+    position: absolute;
+    left: 50px;
+    top: -30px;
+    border-radius: 7px;
+}
+
+#level-4 .place{
+    color: green;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 50px 20px;
+    text-align: center;
+    
+}
+
+#level-4 .location i{
+    color: green;
+}
+
+#level-4 .location{
+    margin: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+#level-4 .location-7{
+    transform: translateY(-15px);
+    margin: 10px;
+    color: black;
+}
+
+#level-4 .location-7 i{
+    color: green;
+}
+

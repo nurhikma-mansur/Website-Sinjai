@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+
+.container {
+    position: absolute;
+    top: 30px;
+    bottom: 50px;
+    left: 100px;
+    right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 1;
+}
+
+.dalam-1 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../image/mangrove.jfif);
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    left: 90px;
+    border-radius: 20px;
+}
+
+.dalam-2 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../image/mangrove-2.jpeg);
+    background-size: cover;
+    position: absolute;
+    left: 130px;
+    top: 150px;
+    border-radius: 20px;
+}
+
+.dalam {
+    
+    border-radius: 20px;
+    text-align: justify;
+    position: relative;
+}
+
+.dalam h4 {
+    font-size: 20px;
+}
+
+.dalam h5 {
+    color: green;
+    padding-bottom: 50px;
+}
+
+.dalam p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.desc {
+    position: absolute;
+    top: 100px;
+    /* bottom: 50px; */
+    right: 100px;
+    left: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+img {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
